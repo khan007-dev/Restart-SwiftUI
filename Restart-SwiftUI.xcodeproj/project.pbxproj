@@ -15,6 +15,7 @@
 		C93F12B42B8952010022A1E3 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93F12B22B8952010022A1E3 /* chimeup.mp3 */; };
 		C93F12BB2B8955900022A1E3 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F12BA2B8955900022A1E3 /* OnBoardingView.swift */; };
 		C93F12BD2B89559B0022A1E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F12BC2B89559B0022A1E3 /* HomeView.swift */; };
+		C970ED362B8B62DC0081968C /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970ED352B8B62DC0081968C /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C93F12B92B8955210022A1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C93F12BA2B8955900022A1E3 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		C93F12BC2B89559B0022A1E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C970ED352B8B62DC0081968C /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				C93F12B92B8955210022A1E3 /* Info.plist */,
-				C93F12B82B89533B0022A1E3 /* Utilities */,
-				C93F12B72B8953230022A1E3 /* Views */,
 				C93F12B52B8952040022A1E3 /* Sounds */,
 				C93F12A32B894FCE0022A1E3 /* Restart_SwiftUIApp.swift */,
 				C93F12B62B8953130022A1E3 /* Screens */,
+				C93F12B82B89533B0022A1E3 /* Utilities */,
+				C93F12B72B8953230022A1E3 /* Views */,
 				C93F12A72B894FD00022A1E3 /* Assets.xcassets */,
 				C93F12A92B894FD00022A1E3 /* Preview Content */,
 			);
@@ -102,6 +104,7 @@
 		C93F12B72B8953230022A1E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C970ED352B8B62DC0081968C /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C970ED362B8B62DC0081968C /* CircleGroupView.swift in Sources */,
 				C93F12BB2B8955900022A1E3 /* OnBoardingView.swift in Sources */,
 				C93F12BD2B89559B0022A1E3 /* HomeView.swift in Sources */,
 				C93F12A62B894FCE0022A1E3 /* ContentView.swift in Sources */,
